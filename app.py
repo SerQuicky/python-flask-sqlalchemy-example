@@ -5,7 +5,7 @@ from flask_marshmallow import Marshmallow
 app = Flask(__name__)
 
 # Set up the SQLAlchemy Database (use any sql database)
-app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql+psycopg2://postgres:Solikamsk@localhost/Neblun'
+app.config['SQLALCHEMY_DATABASE_URI'] = ''
 
 
 # init the sqlalchemy- and mashmallow object 
